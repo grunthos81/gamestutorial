@@ -1,0 +1,24 @@
+{%load static%}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{%block title%}Games Compendium{%endblock title%}</title>
+        <link href="{%static 'main.css' %}" rel="stylesheet" type="text/css">
+        <script src="{%static 'woordle.js'%}"></script>
+    </head>
+    <body>
+    <nav id="navbar-fixed-top">
+        <p>Games!</p>
+        <a href="/">Home</a>
+        <a href="/woordle">Woordle</a>
+        <a href="">Coming Soon</a>
+        <a href="">Coming Soon</a>
+      </nav>
+      {%block content%}
+      {%endblock content%}
+      
+
+    </body>
+
+</html>

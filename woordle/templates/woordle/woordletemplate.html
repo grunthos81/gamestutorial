@@ -1,0 +1,93 @@
+{%extends 'maintemplate.html'%}
+        {%block title%}{{title}}{%endblock title%}
+
+        {%block content%}
+        <body onload="setup('{{word}}', {{wordlist}})">
+          <form id="woordleform">
+            <p id="message">Let's Play Woordle!</p>
+            <p>
+                
+                <label id="1">&zwnj;  </label>
+                <label id="2">&zwnj; </label>
+                <label id="3">&zwnj; </label>
+                <label id="4">&zwnj; </label>
+                <label id="5">&zwnj; </label>
+            </p>
+            <p>
+                <label id="6">&zwnj; </label>
+                <label id="7">&zwnj; </label>
+                <label id="8">&zwnj; </label>
+                <label id="9">&zwnj; </label>
+                <label id="10">&zwnj; </label>
+            </p>
+            <p>
+                <label id="11">&zwnj; </label>
+                <label id="12">&zwnj; </label>
+                <label id="13">&zwnj; </label>
+                <label id="14">&zwnj; </label>
+                <label id="15">&zwnj; </label>
+            </p>
+            <p>
+                <label id="16">&zwnj; </label>
+                <label id="17">&zwnj; </label>
+                <label id="18">&zwnj; </label>
+                <label id="19">&zwnj; </label>
+                <label id="20">&zwnj; </label>
+            </p>
+            <p>
+                <label id="21">&zwnj; </label>
+                <label id="22">&zwnj; </label>
+                <label id="23">&zwnj; </label>
+                <label id="24">&zwnj; </label>
+                <label id="25">&zwnj; </label>
+            </p>
+            
+            <p>
+                <label id="26">&zwnj; </label>
+                <label id="27">&zwnj; </label>
+                <label id="28">&zwnj; </label>
+                <label id="29">&zwnj; </label>
+                <label id="30">&zwnj; </label>
+            </p>
+        
+            <div id="keys">
+            <p>
+                <button type="button" id="Q" onclick="addletter('Q')">Q</button>
+                <button type="button" id="W" onclick="addletter('W')">W</button>
+                <button type="button" id="E" onclick="addletter('E')">E</button>
+                <button type="button" id="R" onclick="addletter('R')">R</button>
+                <button type="button" id="T" onclick="addletter('T')">T</button>
+                <button type="button" id="Y" onclick="addletter('Y')">Y</button>
+                <button type="button" id="U" onclick="addletter('U')">U</button>
+                <button type="button" id="I" onclick="addletter('I')">I</button>
+                <button type="button" id="O" onclick="addletter('O')">O</button>
+                <button type="button" id="P" onclick="addletter('P')">P</button>
+            </p>
+            <p>
+                <button type="button" id="A" onclick="addletter('A')">A</button>
+                <button type="button" id="S" onclick="addletter('S')">S</button>
+                <button type="button" id="D" onclick="addletter('D')">D</button>
+                <button type="button" id="F" onclick="addletter('F')">F</button>
+                <button type="button" id="G" onclick="addletter('G')">G</button>
+                <button type="button" id="H" onclick="addletter('H')">H</button>
+                <button type="button" id="J" onclick="addletter('J')">J</button>
+                <button type="button" id="K" onclick="addletter('K')">K</button>
+                <button type="button" id="L" onclick="addletter('L')">L</button>
+            </p>
+            <p>
+                <button type="button" id="DEL" onclick="del()">DEL</button>
+                <button type="button" id="Z" onclick="addletter('Z')">Z</button>
+                <button type="button" id="X" onclick="addletter('X')">X</button>
+                <button type="button" id="C" onclick="addletter('C')">C</button>
+                <button type="button" id="V" onclick="addletter('V')">V</button>
+                <button type="button" id="B" onclick="addletter('B')">B</button>
+                <button type="button" id="N" onclick="addletter('N')">N</button>
+                <button type="button" id="M" onclick="addletter('M')">M</button>
+                <button type="button" id="ENTER" onclick="enter()">ENTER</button>
+            </p>
+            </div>
+          </form>
+        
+        </body>
+        {%endblock content%}
+            

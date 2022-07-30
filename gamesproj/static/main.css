@@ -1,0 +1,46 @@
+#navbar-fixed-top, h2, h4{
+    background-color: rgb(255, 254, 253);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+form{
+    text-align: center;
+}
+
+p{
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+button{
+    background-color:#ffffee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    
+}
+
+button:hover{
+    background-color: #eeeeee;
+}
+
+p#message{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+label{
+    background-color: #ffffee;
+    border: black;
+    border-style:solid;
+    border-radius: 5px;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4em;
+    height: 1.5em;
+    width: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
